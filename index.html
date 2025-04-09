@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact List Manager</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Contact List Manager</h1>
+
+    <form id="addContactForm">
+      <input type="text" id="name" placeholder="Name" required />
+      <input type="text" id="phone" placeholder="Phone" required min="11" />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="address" placeholder="Address" required />
+      <input type="submit" value="Save Contact" />
+    </form>
+
+    <h2>Contact List</h2>
+
+    <ul id="contact-list"></ul>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
